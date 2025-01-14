@@ -1,0 +1,73 @@
+.home {
+    text-align: center;
+    margin: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-image {
+    flex: 1;
+    max-width: 350px;
+    margin-top: 20px;
+  }
+  
+  .photo-frame {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(135deg, #f78da7, #f06292);
+    border-radius: 20px; /* Slightly rounded corners for the frame */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-pic {
+    width: 100%;
+    max-width: 300px;
+    height: 300px; /* Fixed height to make it square */
+    object-fit: cover; /* Ensures the image fits perfectly */
+    border-radius: 15px; /* Slightly rounded corners for the image */
+    border: 5px solid white; /* White border inside the frame */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease; /* Smooth fade-in effect */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .photo-frame:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }

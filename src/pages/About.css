@@ -1,0 +1,31 @@
+.about {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007BFF;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  .about p:last-child {
+    font-style: italic;
+    
+    font-weight: bold;
+    background: #f9f9f9;
+    border-left: 4px solid #f78da7;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  
