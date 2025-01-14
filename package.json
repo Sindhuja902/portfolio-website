@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Sindhuja902.github.io/portfolio-website",
   "name": "personal-portfolio-website",
   "version": "1.0.0",
   "private": true,
@@ -15,7 +16,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
